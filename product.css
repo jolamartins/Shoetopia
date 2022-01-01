@@ -1,0 +1,29 @@
+.productpage select{
+    display: block;
+    padding: 5px 10px;
+}
+
+.productpage img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.productpage input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.productpage input:focus{
+    outline: none;
+}
+
+.buy-btn{
+    opacity: 1;
+    transition: 0.3s all;
+    background-color: #fb774b;
+}

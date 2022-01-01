@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>SHOETOPIA</title>
+</head>
+<body class="body">
+    <nav>
+        <h3>S</h3>
+        <h3>H</h3>
+        <h3>O</h3>
+        <h3>E</h3>
+        <h3>T</h3>
+        <h3>O</h3>
+        <h3>P</h3>
+        <h3>I</h3>
+        <h3>A</h3>
+    </nav>
+
+    <header>
+        <h1>S</h1>
+        <h1>I</h1>
+        <h1>G</h1>
+        <h1>N</h1>
+        <h1>U</h1>
+        <h1>P</h1>
+    </header>
+
+    <div class="text">
+      <p><b>Sign up</b> to shoetopia to get amazing discounts and exclusive access to rare and limited designs.
+        <p><u>Already have an account?</u> click the <b>sign in</b> in button</p>  
+    </div>
+
+    <div class="btn">
+        <a href="signup.html"><button class="signup">Sign Up</button></a>
+        <button class="signin" onclick="openForm()">Sign In</button>
+        <a href="home.html"><button class="shop-btn"> proceed to shop
+            <i class="fas fa-chevron-right"></i>
+        </button></a>
+    </div>
+
+    <div class="signinform" id="signin">
+        <form class="signin-form">
+            <h1>SIGN IN</h1>
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <button onclick="window.location.href='home.html';" type="submit" class="signinbtn" >Sign In</button>
+            <button type="submit" class="cancelbtn" onclick="closeForm()">Cancel</button>
+        </form>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
